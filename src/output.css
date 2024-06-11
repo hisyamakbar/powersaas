@@ -1033,3 +1033,11 @@ video {
   --tw-content: url('./assets/icons/people.svg');
   content: var(--tw-content);
 }
+
+.hover\:font-semibold:hover {
+  font-weight: 600;
+}
+
+.\*\:hover\:font-semibold:hover > * {
+  font-weight: 600;
+}
