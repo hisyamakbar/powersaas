@@ -1022,6 +1022,11 @@ video {
   position: absolute;
 }
 
+.before\:inset-0::before {
+  content: var(--tw-content);
+  inset: 0px;
+}
+
 .before\:-left-7::before {
   content: var(--tw-content);
   left: -1.75rem;
@@ -1047,6 +1052,11 @@ video {
   top: 1.75rem;
 }
 
+.before\:z-10::before {
+  content: var(--tw-content);
+  z-index: 10;
+}
+
 .before\:size-4::before {
   content: var(--tw-content);
   width: 1rem;
@@ -1070,6 +1080,11 @@ video {
   height: 1rem;
 }
 
+.before\:bg-\[linear-gradient\(90deg\2c _\#FFF_0\%\2c _rgba\(255\2c _255\2c _255\2c _0\.00\)_47\.08\%\2c _\#FFF_100\%\)\;\]::before {
+  content: var(--tw-content);
+  background-image: linear-gradient(90deg, #FFF 0%, rgba(255, 255, 255, 0.00) 47.08%, #FFF 100%);;
+}
+
 .before\:content-\[url\(\'\.\/assets\/icons\/people-1\.svg\'\)\]::before {
   --tw-content: url('./assets/icons/people-1.svg');
   content: var(--tw-content);
@@ -1082,6 +1097,11 @@ video {
 
 .before\:content-\[url\(\'\.\/assets\/icons\/people\.svg\'\)\]::before {
   --tw-content: url('./assets/icons/people.svg');
+  content: var(--tw-content);
+}
+
+.before\:content-\[\'\'\]::before {
+  --tw-content: '';
   content: var(--tw-content);
 }
 
