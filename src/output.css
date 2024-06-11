@@ -612,6 +612,18 @@ video {
   right: 0px;
 }
 
+.-right-0 {
+  right: -0px;
+}
+
+.-right-1 {
+  right: -0.25rem;
+}
+
+.-right-11 {
+  right: -2.75rem;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -783,6 +795,10 @@ video {
 
 .overflow-hidden {
   overflow: hidden;
+}
+
+.scroll-smooth {
+  scroll-behavior: smooth;
 }
 
 .rounded-\[25px\] {
@@ -968,12 +984,20 @@ video {
   outline-width: 1px;
 }
 
+.outline-2 {
+  outline-width: 2px;
+}
+
 .outline-\[\#EAEDF5\] {
   outline-color: #EAEDF5;
 }
 
 .outline-\[\#D9DCE5\] {
   outline-color: #D9DCE5;
+}
+
+.outline-\[\#\] {
+  outline-color: #;
 }
 
 .\*\:cursor-pointer > * {
@@ -1017,6 +1041,29 @@ video {
 .before\:top-7::before {
   content: var(--tw-content);
   top: 1.75rem;
+}
+
+.before\:size-4::before {
+  content: var(--tw-content);
+  width: 1rem;
+  height: 1rem;
+}
+
+.before\:size-6::before {
+  content: var(--tw-content);
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.before\:size-2::before {
+  content: var(--tw-content);
+  width: 0.5rem;
+  height: 0.5rem;
+}
+
+.before\:h-4::before {
+  content: var(--tw-content);
+  height: 1rem;
 }
 
 .before\:content-\[url\(\'\.\/assets\/icons\/people-1\.svg\'\)\]::before {
